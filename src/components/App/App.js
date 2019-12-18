@@ -126,6 +126,8 @@ class App extends Component {
   }
 
   render() {
+    console.log(databaseUrl)
+    console.log(process.env)
     return (
       <div>
         <NavBar isLoggedIn={this.state.isLoggedIn} user={this.state.user} />
