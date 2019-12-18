@@ -33,6 +33,9 @@ class App extends Component {
         isLoggedIn: false
       })
     }
+
+    axios.get(`${databaseUrl}/api/users`)
+      .then(users => { console.log(users) })
     // if (localStorage.token) {
     //   axios(
     //     {
