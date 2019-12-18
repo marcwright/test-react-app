@@ -20,7 +20,8 @@ class App extends Component {
     email: '',
     password: '',
     isLoggedIn: false,
-    user: null
+    user: null,
+    testprop: null
   }
 
   componentDidMount() {
